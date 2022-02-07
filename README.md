@@ -3,3 +3,7 @@ O SASS é uma linguagem de extensão do CSS, a sigla significa “Syntactically 
 
 https://sass-lang.com/documentation
 link da Documentação Sass
+
+Extensão SASS
+sass --> indentado
+scss --> Formato css
