@@ -7,3 +7,19 @@ link da Documentação Sass
 Extensão SASS
 sass --> indentado
 scss --> Formato css
+
+Como converter SASS EM SCSS No terminal de comando linux
+********************************************************
+de SASS PARA SCSS
+>sass arquivo.sass arquivo.scss
+********************************************************
+de SASS PARA CSS 
+>sass  arquivo.scss arquivo.css
+********************************************************
+comando para monitorar o arquivo.scss para arquivo.css e incluir novos codigos automaticamente dentro do css
+❯ sass --watch arquivo.scss:arquivo.css
+para para digite o comando Press Ctrl-C to stop.
+**********************************************************
+comando para compilar a pasta toda
+sass --watch sass:css      
+**********************************************************
