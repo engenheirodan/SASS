@@ -7,6 +7,9 @@ link da Documentação Sass
 https://www.sassmeister.com/
 preprocessador online testar codigos
 
+https://scout-app.io/
+ferramenta para baixar e usar com sass
+
 Extensão SASS
 sass --> indentado
 scss --> Formato css
