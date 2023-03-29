@@ -1,0 +1,10 @@
+/* aplicando encadeamento em sass*/
+
+.s-hero {
+    width: 100%;
+    height: auto;
+    .text {
+        h1 { color: $color-text;}
+        p { font-size: 30px; }
+    }
+}
