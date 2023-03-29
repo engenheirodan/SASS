@@ -8,3 +8,9 @@
         p { font-size: 30px; }
     }
 }
+.button {
+    color: $color-primary;
+    &:hover {
+     color: $color-secundary;
+    }
+}
