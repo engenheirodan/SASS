@@ -1,0 +1,45 @@
+cria os arquivos em uma pasta com essa sequencia _reset.scss
+
+/*Depois aplica os imports de cada arquivo e assim cada alteração vai funcionar automaticamente
+
+_buttons
+.btn-primary{
+    background-color: red;
+}
+_reset
+* {
+    margin: 0;
+    padding: 0;
+}
+_buttons
+.btn-primary{
+    background-color: red;
+}
+
+main.scss
+@import 'reset';
+@import 'responsive';
+@import 'buttons';
+
+
+o main.css acaba sendo transformado automaticamente
+
+/* line 1, ../../../Desktop/modulo/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  /* line 2, ../../../Desktop/modulo/scss/_responsive.scss */
+  h1 {
+    font-size: 5px;
+  }
+}
+
+/* line 1, ../../../Desktop/modulo/scss/_buttons.scss */
+.btn-primary {
+  background-color: red;
+}
+
+/*# sourceMappingURL=main.css.map */
