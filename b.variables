@@ -1,0 +1,15 @@
+/* variaveis em sass segue o mesmo conceito de variavies em css
+
+segue:
+_variables.scss
+$main-color: black;
+
+aplicando a variavel dentro de outro arquivo em scss
+_home.scss
+h1{
+color: $main-color;
+}
+
+aplica a importacao:
+import 'home';
+
