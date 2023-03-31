@@ -22,6 +22,9 @@ de SASS PARA SCSS
 de SASS PARA CSS 
 >sass  arquivo.scss arquivo.css
 ********************************************************
+guia de boas praticas usando o css & sass
+https://desenvolvimentoparaweb.com/css/bem/
+***********************************************************
 comando para monitorar o arquivo.scss para arquivo.css e incluir novos codigos automaticamente dentro do css
 ❯ sass --watch arquivo.scss:arquivo.css
 para para digite o comando Press Ctrl-C to stop.
